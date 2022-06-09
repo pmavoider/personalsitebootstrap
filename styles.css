@@ -1,0 +1,26 @@
+body{
+    background-color: #a6d9e2;
+}
+.orange{
+    background-color:#e68e46;
+}
+.socials{
+    margin-top: 25vh;
+}
+.email{
+    margin-top: 15vh;}
+
+a{
+    color:#e68e46;
+}
+h1{
+    font-family: 'Spectral SC', serif;
+
+}
+.vertical{
+    writing-mode: vertical-rl;
+text-orientation: upright;
+}
+i{
+    color:#e68e46;
+}
