@@ -3,47 +3,90 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width-device-width initial-scale= 1.0">
+
     <title>Tommy Ayres Developer</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/963a5978f1.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Rufina&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<nav class="navbar mb-5 navbar-expand-sm navbar-dark orange">
-    <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-            <a class="nav-link ">About Me</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link">Projects</a>
-        </li>
-    </ul>
+    <nav class="navbar mb-5 navbar-expand-sm navbar-dark orange">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link ">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Projects</a>
+                    </li>
+                </ul>
+            
+         </div>
 
-</nav>
+    </nav>
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-1  socials">
-            <i style="width:100%" class="fa-brands fa-facebook-square  fa-2xl"></i>
-            <i style="width:100%" class="fa-brands mt-4 fa-instagram-square fa-2xl"></i>
-            <i style="width:100%" class="fa-brands mt-4 fa-linkedin fa-2xl"></i>
+    <div class="row" >
+        <div class="col col-sm-1 ml-0 socials" id="social-drop" >
+            <i style="width:100%" class="icon fa-brands fa-facebook-square  fa-2xl"></i>
+            <i style="width:100%" class="icon fa-brands mt-4 fa-instagram-square fa-2xl"></i>
+            <a href="https://www.linkedin.com/feed/"><i  style="width:100%" class="icon fa-brands mt-4 fa-linkedin fa-2xl"></i></a>
 
         </div>
-        <div class="col-10 justify-content-center  mt-5">
-            <h1 class="display-1 text-muted text-center">Tommy</h1>
-            <h1 class="display-1 text-center">Stephen</h1>
-            <h1 class="display-1 text-muted text-center">Ayres</h1>
+        <div class="col col-sm-10 justify-content-center  mt-5">
+            <h1 id="first-name" class="display-1 text-muted text-center">Tommy</h1>
+            <h1 id="middle-name" class="display-1 text-center">Stephen</h1>
+            <h1 id="last-name" class="display-1 text-muted text-center">Ayres</h1>
+            <h1 id="title" class="display-5 text-light text-center">&lt;Developer /&gt;</Front></h2>
 
         </div>
-        <div class="col-1  email">
-            <h6 class="vertical text-right"> Pmavoider@yahoo.com</h6>
+        <div id="email"
+         class="col col-sm-1  email">
+           <a  href="mailto:stephenayres@tsadesigns.com"><h6 class="vertical ml-auto mr-0 email-address"> Pmavoider@yahoo.com</h6></a> 
 
         </div>
+    </div>
+
+    <div class="row socials">
+        <div class="col col-sm-10 offset-sm-1 col-lg-6 offset-lg-3">
+            <h1 class="text-center">About Me</h1>
+            <p class="text-center px-3">I am a front end developer with a variety of expereience. I had the pleasure of  managing a team of 25 people for 5 years. I am also a certified Master Diesel Technician. In both these roles I have trained and mentored my peers, enforced safety plocies, and learned and adapted to new technologies. My experience has given me people skills, an understanding of how to problem solve, and has taught me to thrive in a team enviroment. In addition to that, I am a father of four who loves to camp, build models, and 3d print. I look forward to continuing to learn new technologies, face new challenges, and grow as a developer, and as a person.  </p>
+        </div>
+    </div>
+    <div class="row socials">
+        <div class="col col-sm-12 col-lg  mx-auto d-flex justify-content-around col-lg mt-3">
+            <img class="px-3" width="180px" height="180px" src="images/Bootstrap_logo.png" />
+            <img class="px-3" width="180px" height="180px" src="images/css.png" />
+            <img class="px-3" width="180px" height="180px" src="images/html5.png" />
+        </div>
+        <div class="col col-sm-12 col-lg d-flex justify-content-around mt-3">
+           
+            <img class="px-3" width="180px" height="180px" src="images/javascript.png" />
+            <img class="px-3" width="180px" height="180px" src="images/react.png" />
+            <img class="px-3" width="180px" height="180px"  src="images/adobe.png" />
+        </div>
+        
+    </div>
+    <div class="row socials">
+        <div class="col col-12 col-md-10 offset-md-1 d-flex justify-content-around">
+            <div class="card mx-3 w-50">
+                <img class="card-img-top"  src="images/b's.png" alt="small engine website screenshot " /> 
+            </div>
+            <div class="card mx-3 w-50">
+                <img class="card-img-top" src="images/mootmanor.png" alt="dog breeder's website sreenshot" />
+            </div>
+            
+           
+            
+        </div>
+        
     </div>
 </div>
 
@@ -52,7 +95,19 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
 
+
+<footer>
+    <div class="container-fluid">
+            <div class="row my-5">
+                <div class="d-flex mx-auto">
+                <i style="width:100%" class="fa-brands mt-4 px-1 fa-facebook-square  fa-2xl"></i>
+                <i style="width:100%" class="fa-brands mt-4 px-1 fa-instagram-square fa-2xl"></i>
+                <a href="https://www.linkedin.com/feed/"><i style="width:100%" class="fa-brands mt-4 px-1 fa-linkedin fa-2xl"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
 
 </html>
