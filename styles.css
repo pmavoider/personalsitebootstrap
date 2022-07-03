@@ -23,7 +23,8 @@ a{
 h1 , P{
     font-family: 'Rufina', serif;
 }
-P{
+P{ line-height: 2rem;
+    font-size: large;
    
 }
 .vertical{
@@ -32,6 +33,9 @@ text-orientation: upright;
 }
 i{
     color:#e68e46;
+}
+.footer-socials {
+    color:blue;
 }
 #first-name{
     animation-name:appear;
@@ -49,6 +53,11 @@ i{
     animation-name:appear;
     animation-duration:14s;
 }
+#portrait{
+    width:85%;
+    max-width:400px;
+     border-radius:100%;
+ }
 @keyframes appear{
     from{opacity:0;}
     to{opacity:1;}
@@ -62,4 +71,7 @@ i{
 @keyframes drop{
     from{bottom:120vh;}
     to{bottom: 0;}
+}
+footer{
+    height:15vh;
 }

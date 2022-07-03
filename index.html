@@ -22,10 +22,10 @@
             
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link ">About Me</a>
+                        <a href="#about" class="nav-link ">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Projects</a>
+                        <a href="#projects" class="nav-link">Projects</a>
                     </li>
                 </ul>
             
@@ -54,19 +54,26 @@
         </div>
     </div>
 
-    <div class="row socials">
-        <div class="col col-sm-10 offset-sm-1 col-lg-6 offset-lg-3">
-            <h1 class="text-center">About Me</h1>
-            <p class="text-center px-3">I am a front end developer with a variety of expereience. I had the pleasure of  managing a team of 25 people for 5 years. I am also a certified Master Diesel Technician. In both these roles I have trained and mentored my peers, enforced safety plocies, and learned and adapted to new technologies. My experience has given me people skills, an understanding of how to problem solve, and has taught me to thrive in a team enviroment. In addition to that, I am a father of four who loves to camp, build models, and 3d print. I look forward to continuing to learn new technologies, face new challenges, and grow as a developer, and as a person.  </p>
+    <div class="row socials" id="about">
+        <div class="col mt-5 d-flex flex-column flex-md-row ">
+            <div class="col">
+                <img id="portrait" class="mx-auto d-block mt-md-5" src="images/tommy-ayres.png" />
+            </div>
+            <div class="col px-5">
+                <h1 class="text-center mt-sm-5 mt-md-5">About Me</h1>
+                <p class="text-center lead mt-3 px-3">I am a front end developer with a variety of expereience. I had the pleasure of  managing a team of 25 people for 5 years. I am also a certified Master Diesel Technician. In both these roles I have trained and mentored my peers, enforced safety plocies, and learned and adapted to new technologies. My experience has given me people skills, an understanding of how to problem solve, and has taught me to thrive in a team enviroment. In addition to that, I am a father of four who loves to camp, build models, and 3d print. I look forward to continuing to learn new technologies, face new challenges, and grow as a developer, and as a person.  </p>
+            </div>
+        </div>
+
         </div>
     </div>
     <div class="row socials">
-        <div class="col col-sm-12 col-lg  mx-auto d-flex justify-content-around col-lg mt-3">
+        <div class="col  col-md-9 mx-auto d-flex justify-content-around mt-3">
             <img class="px-3" width="180px" height="180px" src="images/Bootstrap_logo.png" />
             <img class="px-3" width="180px" height="180px" src="images/css.png" />
             <img class="px-3" width="180px" height="180px" src="images/html5.png" />
         </div>
-        <div class="col col-sm-12 col-lg d-flex justify-content-around mt-3">
+        <div class="col col-md-9   mx-auto d-flex justify-content-around mt-4">
            
             <img class="px-3" width="180px" height="180px" src="images/javascript.png" />
             <img class="px-3" width="180px" height="180px" src="images/react.png" />
@@ -74,21 +81,38 @@
         </div>
         
     </div>
-    <div class="row socials">
+    <div class="row socials" id="projects">
         <div class="col col-12 col-md-10 offset-md-1 d-flex justify-content-around">
             <div class="card mx-3 w-50">
-                <img class="card-img-top"  src="images/b's.png" alt="small engine website screenshot " /> 
+                <a href="https://hebronsmallenginerepair.com"><img class="card-img-top"  src="images/b's.png" alt="small engine website screenshot " /></a> 
             </div>
             <div class="card mx-3 w-50">
-                <img class="card-img-top" src="images/mootmanor.png" alt="dog breeder's website sreenshot" />
+                <a href="https://mootmanor.com"><img class="card-img-top" src="images/mootmanor.png" alt="dog breeder's website sreenshot" /></a>
+            </div>
+        </div>
+        <div class="col mt-5 col-12 col-md-10 offset-md-1 d-flex justify-content-around">
+            <div class=" card mx-3 w-50">
+               <a href="images/germanfest-logo.pdf"><img class="card-img-top" src="images/germanfest-logo.pdf"  /></a> 
+            </div>
+            <div class=" card mx-3 w-50">
+<a href="images/oreo-cover.pdf"><img class="card-img-top" src="images/oreo-cover.pdf"  /></a>
             </div>
             
-           
+        </div>
             
         </div>
         
     </div>
 </div>
+<form class="mt-5">
+    <h3>How Can I Help You?</h3>
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+
+    </div>
+</form>
+
 
 
 
@@ -97,13 +121,13 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
-<footer>
-    <div class="container-fluid">
+<footer class="orange mt-5">
+    <div class="container-fluid pt-3">
             <div class="row my-5">
                 <div class="d-flex mx-auto">
-                <i style="width:100%" class="fa-brands mt-4 px-1 fa-facebook-square  fa-2xl"></i>
-                <i style="width:100%" class="fa-brands mt-4 px-1 fa-instagram-square fa-2xl"></i>
-                <a href="https://www.linkedin.com/feed/"><i style="width:100%" class="fa-brands mt-4 px-1 fa-linkedin fa-2xl"></i></a>
+                <i style="width:100%" class="footer-socials fa-brands mt-4 px-1 fa-facebook-square  fa-2xl"></i>
+                <i style="width:100%" class="footer-socials fa-brands mt-4 px-1 fa-instagram-square fa-2xl "></i>
+                <a href="https://www.linkedin.com/feed/"><i style="width:100%" class="footer-socials fa-brands mt-4 px-1 fa-linkedin fa-2xl"></i></a>
             </div>
         </div>
     </div>
