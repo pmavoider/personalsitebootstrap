@@ -74,4 +74,13 @@ i{
 }
 footer{
     height:15vh;
+    margin-top: 180px;
+}
+form{
+    margin-top:180px;
+    
+}
+.round{
+    border-radius:12px;
+    box-shadow: 1px 1px 1px grey;
 }
