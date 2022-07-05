@@ -10,7 +10,7 @@ body{
     margin-top: 25vh;
 }
 .email{
-    margin-top:15vh
+    margin-top:13vh
 }
 .email-address:hover, .icon:hover{
     transform: scale(1.3);
@@ -27,6 +27,7 @@ P{ line-height: 2rem;
     font-size: large;
    
 }
+
 .vertical{
     writing-mode: vertical-rl;
 text-orientation: upright;
